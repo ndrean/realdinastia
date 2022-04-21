@@ -1,0 +1,29 @@
+{
+  "name": "Real Dinastia",
+  "short_name": "RealDinastia",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./assets/favicon_io/favicon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./assets/favicon_io/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/favicon_io/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ]
+}

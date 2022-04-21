@@ -1,0 +1,39 @@
+/*
+https://web.dev/optimize-css-background-images-with-media-queries/
+*/
+
+html,
+body {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  background: #000000;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  border: 2px solid black;
+  height: 100vh;
+}
+
+@media (max-width: 390px) {
+  body {
+    background-image: url(../img/RealDinastia_mob.webp);
+  }
+}
+@media (min-width: 400px) {
+  body {
+    background-image: url(../img/RealDinastia_pres.webp);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
